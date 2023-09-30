@@ -10,7 +10,7 @@
   /* font-family: 'Roboto', sans-serif;  */
 }
 body {
-  background: linear-gradient(to right, rgb(237, 235, 235) 20%, white 100%);
+  background: linear-gradient(to right, rgb(203, 202, 202), rgba(255, 255, 255, 0.81) 80%);
   padding-bottom: 20px;
 }
 a {
@@ -52,7 +52,7 @@ button {
   color: rgb(88, 86, 86);
 }
 .gt {
-  background-image: linear-gradient(to right, yellow 2%, orange 30%, red 90%);
+  background-image: linear-gradient(to right, rgb(255, 200, 0) 2%, orange 30%, red 90%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -79,6 +79,11 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
 
+} */
+/* .exclaim {
+  font-size: 18px;
+  color: red;
+  font-weight: bolder;
 } */
 .header {
   display: flex;
@@ -202,6 +207,9 @@ ul {
 .cardss .card:hover {
   box-shadow: 0 5px 12px 0 rgb(23, 23, 23);
 }
+.card-title {
+  font-weight: bolder;
+}
 .conversion {
   box-shadow: 0 2px 4px 0 rgba(128, 128, 128, 0.321);
   padding: 20px;
@@ -252,22 +260,31 @@ ul {
   }
   .newsletter {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding-left: 5px;
-    gap: 20px;
+    /* gap: 20px; */
     /* border: 1px solid red; */
     width: 100%;
     box-sizing: border-box;
-    align-items: center;
+    align-items: left;
     margin: 0;
   }
   
   h6, h4 {
     margin: 0 !important;
   }
-  .newsletter h5, .newsletter h4 {
-    font-size: 13px;
+  .newsletter h4 {
+    font-size: 24px;
+    font-weight: bolder;
+    padding-bottom: 5px;
+    color: black;
+  }
+  .newsletter h5 {
+    font-size: 18px;
     margin: 0;
+    font-weight: bold;
+    padding-top: 5px;
+    color: black;
   }
   .hero {
     width: 100%;
